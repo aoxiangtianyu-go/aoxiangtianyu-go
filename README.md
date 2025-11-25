@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-![AetherWing's GitHub stats](https://github-readme-stats.vercel.app/api?username=aoxiangtianyu-go&show=prs_merged&show_icons=true&hide_rank=true&hide=stars&theme=radical)
+![AetherWing's GitHub stats](https://github-readme-stats.vercel.app/api?username=aoxiangtianyu-go&show=prs_merged&show_icons=true&hide_rank=true&hide=stars)
 
 <!--
 **aoxiangtianyu-go/aoxiangtianyu-go** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
