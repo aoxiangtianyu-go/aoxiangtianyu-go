@@ -1,8 +1,8 @@
 
       <svg
         width="400"
-        height="120"
-        viewBox="0 0 400 120"
+        height="140"
+        viewBox="0 0 400 140"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -100,10 +100,10 @@
     
 
     <text class="description" x="25" y="-5">
-      <tspan dy="1.2em" x="25">No description provided</tspan>
+      <tspan dy="1.2em" x="25">&#19968;&#20010;&#22522;&#20110; Tauri + React &#30340;&#26412;&#22320;&#26700;&#38754;&#24212;&#29992;</tspan><tspan dy="1.2em" x="25">&#29992;&#20110;&#35838;&#31243;&#25104;&#32489;&#31649;&#29702;&#19982;&#23398;&#20998;&#21152;&#26435;&#24179;&#22343;&#20998;（GPA / &#23398;&#20998;&#32489;）&#39044;&#27979;&#12290;</tspan>
     </text>
 
-    <g transform="translate(30, 45)">
+    <g transform="translate(30, 65)">
       <g transform="translate(0, 0)">
     <g data-testid="primary-lang">
       <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#3178c6" />
