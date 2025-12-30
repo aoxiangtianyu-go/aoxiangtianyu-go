@@ -15,7 +15,12 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true
+          options: |
+            username=${{ github.repository_owner }}
+            &show_icons=true
+            &rank_icon=github
+            &hide_border=true
+            &theme=github_dark
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -23,9 +28,42 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact
+          options: |
+            username=${{ github.repository_owner }}
+            &layout=compact
+            &hide_border=true
+            &theme=github_dark
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+
+      - name: Pinned repo 1
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: repo
+          options: |
+            username=${{ github.repository_owner }}
+            &repo=caculate-score
+            &show_owner=true
+            &hide_border=true
+            &theme=github_dark
+          path: profile/pinned-1.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+
+      - name: Pinned repo 2
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: repo
+          options: |
+            username=${{ github.repository_owner }}
+            &repo=Blade
+            &show_owner=true
+            &hide_border=true
+            &theme=github_dark
+          path: profile/pinned-2.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
 
       - name: Commit
         run: |
