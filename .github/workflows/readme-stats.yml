@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
 
       - name: Stats card
         uses: readme-tools/github-readme-stats-action@v1
@@ -40,7 +43,7 @@ jobs:
       - name: Pinned repo 1
         uses: readme-tools/github-readme-stats-action@v1
         with:
-          card: repo
+          card: pin
           options: |
             username=${{ github.repository_owner }}
             &repo=caculate-score
@@ -54,7 +57,7 @@ jobs:
       - name: Pinned repo 2
         uses: readme-tools/github-readme-stats-action@v1
         with:
-          card: repo
+          card: pin
           options: |
             username=${{ github.repository_owner }}
             &repo=Blade
